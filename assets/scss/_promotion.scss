@@ -1,0 +1,46 @@
+/** promotion-area **/
+.promotion-area{
+    position: relative;
+    .promotion-area-bg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+    .promotion{
+        margin:0 60px 0 97px;
+        & > span{
+            display: inline-block;
+            font-size: 14px;
+            color: #878787;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+        h3{
+            font-size: 40px;
+            margin-bottom: 25px;
+            & > span {
+                display: block;
+                clear: both;
+            }
+        }
+        p{
+            margin-bottom: 40px;
+        }
+        .theme-btn{
+            a {
+                display: inline-block;
+                font-size: 14px;
+                text-transform: uppercase;
+                background-color: #F26957;
+                padding: 14px 55px;
+                color: #fff;
+                letter-spacing: 1px;
+                font-weight: 700;
+            }
+        }
+    }
+}

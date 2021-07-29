@@ -1,0 +1,166 @@
+.search-page-area{
+    .section-title{
+        h2{
+            font-size: 30px;
+            color: #303030;
+            font-weight: 600;
+        }
+    }
+    .search-menu{
+        button{
+            background-color: transparent;
+            border: 1px solid #303030;
+            color: #303030;
+            padding: 10px 35px;
+            margin-left: 10px;
+            font-size: 16px;
+            &.active{
+                background-color: #303030;
+                border-color: #303030;
+                color: #fff;
+            }
+        }
+    }
+
+
+
+    .product-wrapper{
+        position: relative;
+        .product-thumb{
+
+        }
+
+        .special-icon{
+            position: absolute;
+            top: 15px;
+            left: 10px;
+            background: #2A3842;
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            border-radius: 3px;
+            text-align: center;
+            visibility: hidden;
+            opacity: 0;
+            transition: .3s;
+            i{
+                font-size: 12px;
+                color: #EB920D;
+            }
+        }
+
+        .product-content{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 0 10px 10px;
+            width: 100%;
+            visibility: hidden;
+            opacity: 0;
+            transition: .3s;
+            h3{
+                font-size: 11px;
+                line-height: 1;
+                a{
+                   text-decoration: none;
+                    color: #fff;
+                }    
+            }
+            .price-info{
+                .price{
+                    span{
+                        font-size: 12px;
+                        font-weight: 600;
+                        color: #fff;
+                    }
+                }
+                .love-icon{
+                    margin-left: 7px;
+                    padding-left: 7px;
+                    position: relative;
+                    &::before{
+                        content: "";
+                        background: #fff;
+                        width: 2px;
+                        height: 15px;
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        transform: translateY(-50%);
+                    }
+                    i{
+                        font-size: 10px;
+                        color: #fff;
+                        line-height: 1;
+                    }
+                    span{
+                        font-size: 12px;
+                        font-weight: 400;
+                        color: #fff;
+                        margin-left: 3px;
+                        line-height: 1;
+                    }
+                }
+            }
+        }
+
+        .social-profiles{
+            position: absolute;
+            top: 19px;
+            right: 7px;
+            visibility: hidden;
+            opacity: 0;
+            transition: .3s;
+            ul {
+                li {
+                    margin-bottom: 5px;
+                    a{
+                        width: 35px;
+                        height: 35px;
+                        line-height: 35px;
+                        border-radius: 3px;
+                        color: #484848;
+                        display: inline-block;
+                        text-align: center;
+                        background: #fff;
+                        &:hover{
+                            color: #fff;
+                            background: #00AAFF;
+                        }
+                    }
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+
+        &:hover .special-icon{
+            visibility: visible;
+            opacity: 1;
+        }
+        &:hover .product-content{
+            visibility: visible;
+            opacity: 1;
+        }
+        &:hover .social-profiles{
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+
+    .theme-btn{
+        padding-left: 50px;
+        a{
+            background-color: #1273EB;
+            border-color: #1273EB;
+            padding: 12px 50px;
+            border-radius: 7px;
+            color: #fff;
+            text-decoration: none;
+            text-transform: capitalize;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+/** page breadcrumb **/
+.breadcrumb-area{
+    .page-title{
+        h3{
+            font-size: 30px;
+            font-weight: 600;
+            color: #303030;
+        }
+    }
+
+    .breadcrumb-list{
+        ul{
+            
+            li{
+                display: inline-block;
+                margin-left: 10px;
+                padding-left: 10px;
+                font-weight: 400;
+                position: relative;
+                color: #ff4646;
+                a{
+                    font-size: 16px;
+                    color: #484848;
+                    text-decoration: none;
+                }
+                &::before {
+                    content: "/";
+                    position: absolute;
+                    left: -6px;
+                    top: 0;
+                    color: #7b8491;
+                }
+                &:first-child::before {
+                    display: none;
+                }
+                &:first-child{
+                    padding-left: 0;
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+
+/**
+.page-title-area {
+	background-size: cover;
+	background-attachment: fixed;
+}
+.breadcrumb-list ul li {
+	display: inline-block;
+	margin-left: 10px;
+	padding-left: 10px;
+	font-weight: 400;
+	position: relative;
+	color: #ff4646;
+}
+.breadcrumb-list ul li a {
+  color: #7b8491;
+}
+.breadcrumb-list ul li::before {
+	content: "-";
+	position: absolute;
+	left: -6px;
+	top: 0;
+	color: #7b8491;
+}
+.breadcrumb-list ul li:first-child::before {
+	display: none;
+}
+**/

@@ -1,0 +1,97 @@
+/** service-area **/
+.services-area {
+    .single-service-item.style-1{
+        .service-thumb{
+            margin-bottom: 34px;
+            img {
+                width: 100%;
+            }
+        }
+        .service-content{
+            h3{
+                font-size: 20px;
+                text-transform: uppercase;
+                margin-bottom: 16px;
+            }
+            p {
+                margin-bottom: 10px;
+            }
+            .theme-btn a{
+                font-size: 13px;
+                line-height: 26px;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #444444;
+            }
+        }
+    }
+
+}
+
+
+
+.services-area.style-2 {
+    position: relative;
+    z-index: 99;
+    .single-service-item {
+        background-color: #F4F4F4;
+        border: 1px solid #F4F4F4;
+        padding: 50px 42px;
+        transition: .3s;
+        border-radius: 10px;
+        .service-icon{
+            margin-bottom: 20px;
+            a{
+                width: 100px;
+                height: 100px;
+                display: inline-block;
+                background-color: #00AAFF;
+                position: relative;
+                border-radius: 50%;
+                color: #fff;
+                i{
+                    font-size: 42px;
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    right: 0;
+                    transform: translateY(-50%);
+                }
+                &:hover{
+                    background-color: #fff;
+                    color: #00AAFF;
+                }
+            }
+
+        }
+        .service-content{
+            h3{
+                font-size: 30px;
+                font-weight: 600;
+                color: #303030;
+                margin-bottom: 20px;
+                text-transform: capitalize;
+            }
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                margin-bottom: 10px;
+            }
+        }
+        &:hover {
+            box-shadow: 0px 0px 27px 3px rgba(0, 0, 0, 0.1);
+            background-color: #00AAFF;
+            border: 1px solid #00AAFF;
+        }
+        &:hover .service-content h3{
+            color: #fff;
+        }
+        &:hover .service-content p{
+            color: #fff;
+        }
+        &:hover .service-icon a{
+            background-color: #fff;
+            color: #00AAFF;
+        }
+    }
+}

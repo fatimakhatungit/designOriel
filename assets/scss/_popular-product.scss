@@ -1,0 +1,79 @@
+/**
+* Popular Products
+*/
+.popular-product-area{
+    .single-popular-product-item{
+        position: relative;
+        overflow: hidden;
+        .popular-product-thumb{
+            
+            img {
+                width: 100%;
+            }
+        }
+        .popular-product-content{
+            transition: .3s;
+            background-color: rgba(13, 110, 253, .8);
+            position: absolute;
+            top: 100%;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            .icons{
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                a{
+                    margin: 0 5px;
+                    width: 50px;
+                    height: 50px;
+                    line-height: 50px;
+                    text-align: center;
+                    display: inline-block;
+                    background-color: #00AAFF;
+                    border-radius: 50%;
+                    color: #fff;
+                    i{
+                        font-size: 20px;
+                    }
+                    &:hover{
+                        background-color: #fff;
+                        color: #00AAFF;
+                    }
+                }
+            }
+        }
+
+        &:hover .popular-product-content{
+            background-color: rgba(13, 110, 253, .3);
+            top: 0; 
+            border-radius: 7px;
+        }
+
+        &:hover .popular-product-content .icons{
+            position: absolute;
+            top: 50%;
+            transform:translateY(-50%);
+            left: 0;
+            right: 0;
+        }
+
+    }
+
+    .theme-btn{
+        padding-left: 50px;
+        a{
+            background-color: #1273EB;
+            border-color: #1273EB;
+            padding: 12px 50px;
+            border-radius: 7px;
+            color: #fff;
+            text-decoration: none;
+            text-transform: capitalize;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+}

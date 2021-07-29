@@ -1,0 +1,106 @@
+.courses-details-area{
+    .course-details{
+        .course-thumb{
+            img{
+                width: 100%;
+            }
+        }
+
+        .course-meta-info{
+            .course-subtitle{
+                p{
+                    font-size: 16px;
+                    color: #484848;
+                    font-weight: 300;
+                    margin: 15px 0;
+                }
+            }
+        }
+
+        .social-profiles{
+            ul {
+                margin-bottom: 0;
+                li {
+                    display: inline;
+                    margin-left: 6px;
+                    a{
+                        width: 25px;
+                        height: 25px;
+                        line-height: 25px;
+                        text-align: center;
+                        display: inline-block;
+                        border-radius: 5px;
+                        color: #C9C9C8;
+                        border: 1px solid #CCCCCC;
+                        font-size: 14px;
+            
+                        &:hover{
+                            color: #fff;
+                            background: #1273EB;
+                            border: 1px solid #1273EB;
+                        }
+                    }
+                    &:first-child{
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .course-overview-area{
+        .buy-info{
+            span{
+                padding: 10px 50px;
+                border-radius: 5px;
+                color: #fff;
+                text-decoration: none;
+                text-transform: capitalize;
+                font-size: 25px;
+                font-weight: 700;
+            }
+            a{
+                padding: 10px 50px;
+                border-radius: 5px;
+                color: #fff;
+                text-decoration: none;
+                text-transform: capitalize;
+                font-size: 25px;
+                font-weight: 700;
+            }
+        }
+        .course-content{
+            border: 1px solid #CCCCCC;
+            border-radius: 5px;
+            h3{
+                font-size: 24px;
+                font-weight: 600;
+                text-transform: capitalize;
+                text-align: center;
+                background-color: #4AD395;
+                padding: 15px 0;
+                color: #fff;
+            }
+            ul{
+                background-color: #F4F4F4;
+                li{
+                    border-bottom: 1px solid #CCCCCC;
+                    padding: 16px 25px; 
+                    .heading{
+                        float: left;
+                        width: 120px;
+                        font-weight: 600;
+                    }
+                    .content{
+                        overflow: hidden;
+                    }
+                    &:last-child{
+                        border-bottom: 0 solid #CCCCCC;
+                    }
+                }
+            }
+        }
+    }
+}
+
+

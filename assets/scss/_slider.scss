@@ -1,0 +1,111 @@
+.slider-area.style-1{
+    margin-bottom: 0;
+    .single-slide-item{
+        height: 100vh;
+        h4{
+            font-size: 20px;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        h2{
+            font-size: 92px;
+            font-weight: 700;
+            color: #fff;
+            > span {
+                display: block;
+                margin-bottom: 30px;
+            }
+        }
+        .theme-btn{
+            a {
+                font-size: 14px;
+                font-weight: 700;
+                padding: 12px 55px;
+                background-color: #F26957;
+                color: #fff;
+                border-color: #F26957;
+                letter-spacing: 1px;
+            }
+        }
+    }
+    .slick-dots {
+        bottom: 25px;
+        li button {
+            width: 11px;
+            height: 11px;
+            padding: 5px;
+            cursor: pointer;
+            color: transparent;
+            border: 2px solid #646464;
+            outline: none;
+            background: transparent;
+            border-radius: 50%;
+        }
+        li.slick-active button {
+            border: 2px solid #646464;
+            background-color: #646464;
+        }
+    }
+}
+
+
+/** slider-style-2 **/
+.slider-area.style-2{
+    margin-bottom: 0;
+    background-size: cover;
+    background-position: center center;
+    .single-slide-item{
+        .slide-height{
+            height: 100vh;
+        }
+        .slide-text{
+            h4{
+                font-size: 20px;
+                color: #fff;
+                text-transform: uppercase;
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+            h2{
+                font-size: 92px;
+                font-weight: 700;
+                color: #fff;
+                > span {
+                    display: block;
+                    margin-bottom: 30px;
+                }
+            }
+            .theme-btn{
+                a {
+                    font-size: 14px;
+                    font-weight: 700;
+                    padding: 12px 55px;
+                    background-color: #F26957;
+                    color: #fff;
+                    border-color: #F26957;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+    .slick-dots {
+        bottom: 25px;
+        li button {
+            width: 11px;
+            height: 11px;
+            padding: 5px;
+            cursor: pointer;
+            color: transparent;
+            border: 2px solid #646464;
+            outline: none;
+            background: transparent;
+            border-radius: 50%;
+        }
+        li.slick-active button {
+            border: 2px solid #646464;
+            background-color: #646464;
+        }
+    }
+}

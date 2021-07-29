@@ -1,0 +1,171 @@
+/** search style - 1 **/
+.advanced-search-area{
+	background-size: cover;
+	background-position: center center;
+	.advanced-search{
+		.search-header{
+			h2{
+				color: #fff;
+				font-size: 48px;
+				font-weight: 600;
+				margin-bottom: 22px;
+			}
+			h5{
+				font-size: 24px;
+				color: #fff;
+				font-weight: 400;
+			}
+		}
+		.search-footer{
+			p{
+				color: #fff;
+				font-size: 14px;
+				font-weight: 300;
+			}
+		}
+
+
+		.search-box-wrapper{
+			background: #fff;
+			border-radius: 10px;
+			position: relative;
+			overflow: hidden;
+			width: 100%;
+			margin: 0 auto 15px;
+			.select-cat{
+				background: inherit;
+				border: none;
+				width: 160px;
+				float: left;
+				overflow: hidden;
+				padding: 25px 0 25px 30px;
+			}
+			.search-text{
+				width: 836px;
+				background-color: #fff;
+				padding: 25px 30px 25px 30px;
+				float: left;
+				overflow: hidden;
+				border: 0;
+				border-left: 1px solid #EEEEEE;
+				margin-left: 30px;
+			}
+			.search-btn{
+				position: absolute;
+				top: 0;
+				right: 0;
+				height: 100%;
+				width: 80px;
+				border: 0px solid transparent;
+					border-left-color: transparent;
+					border-left-style: solid;
+					border-left-width: 0px;
+				border-left: 1px solid #00AAFF;
+				background: #00AAFF;
+				box-sizing: border-box;
+				i{
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+/** search style - 2 **/
+.advanced-search-area.style-2{
+	background-size: cover;
+	background-position: center center;
+	.advanced-search{
+		.search-box-wrapper{
+			background: #fff;
+			border-radius: 10px;
+			position: relative;
+			overflow: hidden;
+			width: 100%;
+			margin: 0;
+			.select-cat{
+				background: inherit;
+				border: none;
+				width: 160px;
+				float: left;
+				overflow: hidden;
+				padding: 25px 0 25px 30px;
+			}
+			.search-text{
+				width: 836px;
+				background-color: #fff;
+				padding: 25px 30px 25px 30px;
+				float: left;
+				overflow: hidden;
+				border: 0;
+				border-left: 1px solid #EEEEEE;
+				margin-left: 30px;
+			}
+			.search-btn{
+				position: absolute;
+				top: 0;
+				right: 0;
+				height: 100%;
+				width: 80px;
+				border: 0px solid transparent;
+					border-left-color: transparent;
+					border-left-style: solid;
+					border-left-width: 0px;
+				border-left: 1px solid #00AAFF;
+				background: #00AAFF;
+				box-sizing: border-box;
+				i{
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+
+/** responsive css **/ 
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+	.advanced-search-area .advanced-search .search-box-wrapper .search-text {
+		width: 680px;
+	}
+	.advanced-search-area .advanced-search .search-header h2 {
+		font-size: 40px;
+	}
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.advanced-search-area .advanced-search .search-box-wrapper .search-text {
+		width: 533px;
+	}
+	.advanced-search-area .advanced-search .search-header h2 {
+		font-size: 40px;
+	}
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.advanced-search-area .advanced-search .search-box-wrapper .search-text {
+		width: 450px;
+	}
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.advanced-search-area .advanced-search .search-box-wrapper .search-text {
+		width: 280px;
+	}
+	.advanced-search-area .advanced-search .search-box-wrapper .search-text {
+		padding: 25px 30px 25px 20px;
+		margin-left: 20px;
+	}
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}

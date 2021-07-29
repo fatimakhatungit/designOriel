@@ -1,0 +1,52 @@
+/**
+* Best Selling Products
+*/
+.best-selling-products-area{
+    background-color: #F4F4F4;
+    .section-heading{
+        h2{
+            font-size: 48px;
+            color: #303030;
+            text-transform: capitalize;
+        }
+    }
+    .best-selling-products{
+        margin: 0 -5px;
+        .single-best-item{
+            padding: 0 5px;
+            
+            img{
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+// slider arrow
+.best-selling-products i.slick-arrow {
+    position: absolute;
+    transform: translateY(-50%);
+    z-index: 78;
+    background: #00AAFF;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 50%;
+}
+.best-selling-products i.slick-arrow:hover {
+	background: #1373EB;
+}
+.best-selling-products i.fa-chevron-left {
+    top: 50%;
+    left: -100px;
+    font-size: 20px;
+}
+.best-selling-products i.fa-chevron-right {
+    top: 50%;
+	right: -100px;
+    font-size: 20px;
+}

@@ -1,0 +1,93 @@
+/* ----------------------------------
+    Feature Section 
+ ------------------------------------ */
+  /**
+ .icon-section{
+	.icon-wrapper{
+		.icon-content{
+			.icon{
+				background: #1373eb;
+				width: 150px;
+				height: 150px;
+				border-radius: 50%;
+			}
+			h3{
+				font-size: 22px;
+				font-weight: 400;
+				color: #000;
+				text-transform: capitalize;
+				padding: 10px 0px;
+			}
+		}
+	}
+ }
+ **/
+
+.icon-section {
+	position: relative;
+	background: #f1f5fe;
+	.icon{
+		background: #1373eb;
+		width: 215px;
+		height: 215px;
+		border-radius: 50%;
+		h3{
+			font-size: 24px;
+			font-weight: 400;
+			color: #303030;
+			text-transform: capitalize;
+			padding: 10px 0px;
+			top: 100%;
+			position: absolute;
+			left: 0;
+			right: 0;
+		}
+	}
+
+}
+
+.border-bottom {
+	position: absolute;
+	right: 18%;
+	bottom: 34%;
+	width: 69%;
+	height: 0px;
+  z-index: -1;
+}
+
+.icon-content {
+	position: relative;
+	z-index: 9;
+	.icon{
+		position: relative;
+		img {
+				position: absolute;
+				top: 50%;
+				transform:translateY(-50%);
+				left: 0;
+				right: 0;
+				margin: 0 auto;
+		}
+	}
+
+
+}
+
+.border-images {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	left: -30px;
+	bottom: 63px;
+	img {
+		width: 75%;
+		margin-top: 10px;
+	}
+}
+
+.row.icon-row {
+	position: relative;
+}
+.icon-row .col-item:nth-child(2n) {
+  margin-top: 50px;
+}

@@ -1,0 +1,70 @@
+/** courses-area **/
+.courses-area {
+    .single-course-item{
+        background-color: #fff;
+        .course-thumb{
+            width: 100%;
+        }
+
+        .couse-content-wrapper{
+            padding: 20px;
+            
+            .course-rating-area{
+                font-size: 16px;
+                padding-bottom: 12px;
+                .enrolled-students-num{
+                    span{
+                        color: #999999;
+                    }
+                }
+                .rating {
+                    i{
+                        color: #FAAF3A;
+                    }
+                    span{
+                        color: #999999;
+                    }
+                }
+            }
+
+            .course-content{
+                h3{
+                    font-size: 24px;
+                    text-transform: capitalize;
+                    font-weight: 600;
+                    margin-bottom: 16px;
+                    line-height: 32px;
+                }
+                .meta-info{
+                    color: #999999;
+                    .lecture-num{}
+                    .students-num{}
+                }
+                .author-meta{
+                    
+                    p{
+                        color: #999999;
+                    }
+                }
+            }
+
+            .price-info{
+
+                .price{
+                    span{
+                        del{
+
+                        }
+                    }
+                }
+                .price-link{
+                    a{
+                        // background-color: #1273EB;
+                        padding: 10px 45px;
+                        border-radius: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
